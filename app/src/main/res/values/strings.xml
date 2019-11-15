@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TravalApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sing_up">Sing up</string>
+    <string name="traval_app">Traval App</string>
+    <string name="best_way_traval">Best way to organize travels</string>
+    <string name="full_name">Full Name</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="search" />
+    <string name="text">You will Travel by?</string>
+    <string name="sing_in">sign_in</string>
+</resources>

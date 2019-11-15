@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.travalapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:theme="@style/SignUpTheme"
+            android:name=".activity.SignInActivity"></activity>
+
+        <activity android:name=".activity.VehiclesActivity"></activity>
+        <activity android:name=".activity.EditProfileActivity"></activity>
+        <activity android:name=".activity.GuidenceActivity"
+
+            android:theme="@style/SignUpTheme"
+
+            ></activity>
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:label="Splash Screen"
+            android:theme="@style/SplashScreeTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:label="@string/app_name" ></activity>
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:label="Splash Screen"
+            android:theme="@style/SignUpTheme" >
+        </activity>
+    </application>
+
+</manifest>
